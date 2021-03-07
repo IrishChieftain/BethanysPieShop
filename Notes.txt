@@ -1,0 +1,20 @@
+EXPRESSION BODIED MEMBERS in C# (introduced in C#6.0 and enhanced in C#7.0):
+----------------------------------------------------------------------------
+* Example syntax can be seen in MockPieRepository.cs when instantiating a generic list of pies as a property.
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members
+https://www.c-sharpcorner.com/article/expression-bodied-members/
+https://stackoverflow.com/questions/31764532/what-is-the-assignment-in-c-sharp-in-a-property-signature
+"While expression-bodied members are lambda expression-like, they are not lambda expressions. The fundamental difference is 
+that a lambda expression results in either a delegate instance or an expression tree. Expression-bodied members are just a 
+directive to the compiler to generate a property behind the scenes."
+
+VIEW COMPONENTS:
+----------------
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-3.1
+
+TAG HELPERS:
+-----------
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/authoring?view=aspnetcore-3.1
+https://jpdeffo.medium.com/asp-net-core-razor-tag-helper-and-view-components-inside-a-container-3cb007001535 (Tag Helpers & View Components)
+https://jpdeffo.medium.com/asp-net-core-razor-tag-helper-and-view-components-inside-a-container-3cb007001535 (Working Example using Docker as PAAS - Platform as a Service --> Azure)
